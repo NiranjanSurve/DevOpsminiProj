@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 1rem;
+  }
+  
+  header {
+    background: #222;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header nav a {
+    margin: 0 15px;
+    color: #ddd;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    color: #fff;
+  }
+  
+  .hero {
+    background: #007acc;
+    color: white;
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    background: #fff;
+    color: #007acc;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .features {
+    background: #fff;
+    padding: 3rem 0;
+  }
+  
+  .features .cards {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex: 1;
+    background: #eef;
+    padding: 1rem;
+    border-radius: 10px;
+    min-width: 250px;
+  }
+  
+  .testimonials {
+    background: #eee;
+    padding: 2rem;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  form {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    margin-top: 15px;
+    padding: 0.7rem 1rem;
+    background: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background: #222;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
